@@ -35,9 +35,10 @@ class MainActivity : AppCompatActivity() {
             val suggestion = when (time) {
                 "morning" -> "send a 'Good Morning' message to a family member."
                 "mid-morning" -> "send a 'Thank you' message to a colleague."
-                "afternoon" -> "share a funny meme with a friend."
-                "dinner" -> "Call a friend for a 5-minute catch-up."
+                "afternoon" -> "share a funny meme with a friend.""dinner" -> "Call a friend for a 5-minute catch-up."
                 "night" -> "Leave a thoughtful comment on a friend's post."
+                "Afternoon Snack Time" -> "Send a quick thinking of you message"
+                "Dinner" -> "Call a friend or relative for a 5-minute catch up"
                 else -> "Invalid time of day"
             }
             tvSuggestion.text = suggestion
